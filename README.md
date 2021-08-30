@@ -1,0 +1,2 @@
+# guessthenumber
+import random  computer_guess = random.randint(1, 99)  user_guess = int(input("Bitte geben sie eine Zahl von 1 - 99 ein: "))  while True:     if user_guess > computer_guess:         print("Deine Schätzung ist zu hoch")         user_guess = int(input("Bitte geben sie eine Zahl von 1 - 99 ein: "))      elif user_guess &lt; computer_guess:         print("Deine Schätzung zu niedrig")         user_guess = int(input("Bitte geben sie eine Zahl von 1 - 99 ein: "))      else:         print("Du hast es erraten!")         break
